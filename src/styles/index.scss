@@ -1,1 +1,18 @@
 // This is where your application styles could go.
+@media (min-width: 66rem) {
+  .container--homepage .bx--grid {
+    padding-left: 2rem;
+  }
+}
+
+.GlobalSearch-module--container--3TNca {
+  display: none;
+}
+
+.Header-module--header--36HqL button {
+  display: none;
+}
+
+.container--dark {
+  background: #030303;
+}

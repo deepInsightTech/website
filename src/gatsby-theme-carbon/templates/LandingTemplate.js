@@ -1,19 +1,21 @@
 import React from 'react';
-import Layout from 'gatsby-theme-carbon/src/components/Layout';
+// import Layout from 'gatsby-theme-carbon/src/components/Layout';
 import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon/src/components/Homepage';
 import Carbon from 'gatsby-theme-carbon/src/images/carbon.jpg';
-import Main from 'gatsby-theme-carbon/src/components/Main';
+// import Main from 'gatsby-theme-carbon/src/components/Main';
 import useMetadata from 'gatsby-theme-carbon/src/util/hooks/useMetadata';
-import Utils from 'gatsby-theme-carbon/src/components/Utils';
+// import Utils from 'gatsby-theme-carbon/src/components/Utils';
 
-import NextPrevious from 'gatsby-theme-carbon/src/components/NextPrevious';
+// import NextPrevious from 'gatsby-theme-carbon/src/components/NextPrevious';
+
+import Layout from '../components/Layout';
 
 const Homepage = ({
-  children,
+  // children,
   Banner,
   FirstCallout,
-  SecondCallout,
-  location,
+  // SecondCallout,
+  // location,
   pageContext,
 }) => {
   const { frontmatter = {}, titleType } = pageContext;
@@ -30,10 +32,6 @@ const Homepage = ({
       theme={homepageTheme}>
       {Banner}
       {FirstCallout}
-      <Main>{children}</Main>
-      {SecondCallout}
-      <NextPrevious isHomepage location={location} pageContext={pageContext} />
-      <Utils />
     </Layout>
   );
 };
@@ -42,9 +40,9 @@ Homepage.defaultProps = {
     <HomepageBanner
       renderText={() => (
         <h1>
-          Deep Insight Tech
+          Deep Insight
           <br />
-          Design System
+          Tech for e-commerce success.
         </h1>
       )}
       image={Carbon}

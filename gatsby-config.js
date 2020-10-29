@@ -4,7 +4,7 @@ module.exports = {
     description: '',
     keywords: '',
   },
-  pathPrefix: `/gtc`,
+  // pathPrefix: `/gtc`,
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
@@ -20,13 +20,15 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
-        mediumAccount: 'carbondesign',
+        // mediumAccount: 'info_36885',
+        iconPath: './src/images/favicon.svg',
+        titleType: 'prepend',
         repository: {
           baseUrl:
-            'https://github.com/carbon-design-system/gatsby-theme-carbon',
-          subDirectory: '/packages/example',
+            'https://github.com/deepInsightTech/website',
+          subDirectory: '',
         },
       },
-    },
+    }
   ],
 };
