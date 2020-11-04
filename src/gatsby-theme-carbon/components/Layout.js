@@ -20,7 +20,7 @@ const Layout = ({
   pageKeywords,
   tabs,
 }) => {
-  const is404 = children.key === null;
+  // const is404 = children.key === null;
 
   useLayoutEffect(() => {
     // eslint-disable-next-line global-require

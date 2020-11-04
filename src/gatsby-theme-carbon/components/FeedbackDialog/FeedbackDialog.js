@@ -6,6 +6,8 @@ const FeedbackDialog = ({ props }) => {
     console.log({ ...data });
   };
 
+  console.log('FEEDBACK HEREEEE');
+
   return <ThemeFeedbackDialog {...props} onSubmit={onSubmit} />;
 };
 
