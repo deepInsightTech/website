@@ -8,9 +8,10 @@ import Carbon from '../../images/carbon.jpg';
 const FirstLeftText = () => <p>Launching</p>;
 
 const FirstRightText = () => (
-  <p>
-    <code>November</code> 2020
-  </p>
+  <div>
+    <h2><code>January</code> 2021</h2>
+    <strong>Previously known as Go Online</strong>
+  </div>
 );
 
 // const SecondLeftText = () => <p>Callout component</p>;
