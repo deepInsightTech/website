@@ -9,7 +9,7 @@ const FirstLeftText = () => <p>Launching</p>;
 
 const FirstRightText = () => (
   <div>
-    <h2><code>January</code> 2021</h2>
+    <code>January</code> 2021
     <strong>Previously known as Go Online</strong>
   </div>
 );
