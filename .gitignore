@@ -58,6 +58,7 @@ typings/
 .cache/
 public/*
 !public/mac-draco.glb
+!public/deepEcom.png
 
 # Mac files
 .DS_Store
