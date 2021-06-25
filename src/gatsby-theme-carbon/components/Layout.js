@@ -4,6 +4,7 @@ import React, { useLayoutEffect } from 'react';
 import Meta from 'gatsby-theme-carbon/src/components/Meta';
 // import LeftNav from './LeftNav';
 import Header from 'gatsby-theme-carbon/src/components/Header';
+import Footer from 'gatsby-theme-carbon/src/components/Footer';
 // import Switcher from 'gatsby-theme-carbon/src/components/Switcher';
 // import Footer from './Footer';
 import Container from 'gatsby-theme-carbon/src/components/Container';
@@ -47,6 +48,7 @@ const Layout = ({
       <Container homepage={homepage} theme={theme}>
         {children}
       </Container>
+      <Footer />
     </>
   );
 };

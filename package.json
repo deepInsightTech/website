@@ -12,9 +12,14 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@react-spring/three": "^9.2.3",
+    "@react-spring/web": "^9.2.3",
+    "@react-three/drei": "^7.0.1",
+    "@react-three/fiber": "^7.0.1",
     "gatsby": "^2.24.14",
     "gatsby-theme-carbon": "^1.27.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "three": "^0.129.0"
   }
 }

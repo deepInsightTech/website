@@ -13,7 +13,7 @@ module.exports = {
         short_name: 'Deep Insight Tech',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#0062ff',
+        theme_color: '#0f62fe',
         display: 'browser',
       },
     },
@@ -28,6 +28,9 @@ module.exports = {
             'https://github.com/deepInsightTech/website',
           subDirectory: '',
         },
+        theme: {
+          homepage: 'white'
+        }
       },
     }
   ],
