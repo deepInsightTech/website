@@ -32,6 +32,13 @@ module.exports = {
           homepage: 'white'
         }
       },
+    },
+    {
+      resolve: 'gatsby-plugin-copy-files',
+      options: {
+        source: `${__dirname}/src/models`,
+		    destination: '/public'
+      }
     }
   ],
 };
